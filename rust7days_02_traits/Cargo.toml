@@ -1,9 +1,15 @@
 [package]
-name = "Day1"
+# Use the package name "point" so we can import this project with relative
+# "path=" syntax from another project
+name = "point"
 version = "0.1.0"
 authors = ["Jeffrey Knight <jeffrey.knight@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "point"
+path = "src/lib.rs"
 
 [dependencies]
+rand = "0.8.3"

@@ -1,0 +1,12 @@
+[package]
+name = "rust7days_02_rand"
+version = "0.1.0"
+authors = ["Jeffrey Knight <jeffrey.knight@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+
+point = { path = "../rust7days_02_traits/" }
