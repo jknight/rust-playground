@@ -1,1 +1,1 @@
-Random rust code
+Rust practice
